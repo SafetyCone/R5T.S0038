@@ -1150,8 +1150,8 @@ $@"public class {classTypeName} : {baseInterfaceTypeName}
         public async Task CreateBasicTypesLibrary()
         {
             /// Inputs
-            var libraryName = "R5T.F0024";
-            var libraryDescription = "Solution file generation and modification functionality.";
+            var libraryName = "R5T.Z0009";
+            var libraryDescription = "Visual Studio project type GUIDs.";
             var isPrivate = false;
 
             var repositoriesDirectoryPath = @"C:\Code\DEV\Git\GitHub\SafetyCone\";
