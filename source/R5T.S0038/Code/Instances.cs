@@ -33,7 +33,7 @@ namespace R5T.S0038
         public static ICodeFileName CodeFileName { get; } = T0037.CodeFileName.Instance;
         public static ICodeFileContextProvider CodeFileContextProvider { get; } = S0038.CodeFileContextProvider.Instance;
         public static ICompilationUnitGenerator CompilationUnitGenerator { get; } = S0038.CompilationUnitGenerator.Instance;
-        public static IExample Example { get; } = Z0004.Example.Instance;
+        public static IExamples Examples { get; } = Z0004.Examples.Instance;
         public static IFileSystemOperator FileSystemOperator { get; } = T0044.FileSystemOperator.Instance;
         public static IGitHubRepositorySpecificationGenerator GitHubRepositorySpecificationGenerator { get; } = D0082.T001.GitHubRepositorySpecificationGenerator.Instance;
         public static IHost Host { get; } = T0070.Host.Instance;
@@ -45,7 +45,7 @@ namespace R5T.S0038
         public static IPathOperator PathOperator { get; } = T0041.PathOperator.Instance;
         public static IProjectContextOperator ProjectContextOperator { get; } = S0038.ProjectContextOperator.Instance;
         public static IProjectDescriptionGenerator ProjectDescriptionGenerator { get; } = T0115.ProjectDescriptionGenerator.Instance;
-        public static IProjectDirectoryRelativePath ProjectDirectoryRelativePath { get; } = Z0007.ProjectDirectoryRelativePath.Instance;
+        public static IProjectDirectoryRelativePath ProjectDirectoryRelativePath { get; } = S0038.ProjectDirectoryRelativePath.Instance;
         public static IProjectIdentityStrings ProjectIdentityStrings { get; } = S0038.ProjectIdentityStrings.Instance;
         public static IProjectNameOperator ProjectNameOperator { get; } = T0112.ProjectNameOperator.Instance;
         public static IProjectPath ProjectPath { get; } = T0040.ProjectPath.Instance;

@@ -569,7 +569,7 @@ namespace R5T.S0038
         private async Task CreateProjectInSolution()
         {
             /// Inputs.
-            var projectName = Instances.Example.ProjectName;
+            var projectName = Instances.Examples.ProjectName;
             var projectType = VisualStudioProjectType.Console;
 
             var solutionFilePath = @"C:\Code\DEV\Git\GitHub\SafetyCone\R5T.Example\source\R5T.Example.sln";
@@ -597,7 +597,7 @@ namespace R5T.S0038
         private async Task CreateSolution()
         {
             /// Inputs.
-            var libraryName = Instances.Example.LibraryName;
+            var libraryName = Instances.Examples.LibraryName;
 
             var repositoriesDirectoryPath = @"C:\Code\DEV\Git\GitHub\SafetyCone\";
 
@@ -634,7 +634,7 @@ namespace R5T.S0038
         private async Task DeleteRepositoryBothLocalAndRemote()
         {
             /// Inputs.
-            var repositoryName = Instances.Example.RepositoryName;
+            var repositoryName = Instances.Examples.RepositoryName;
 
             var repositoriesDirectoryPath = @"C:\Code\DEV\Git\GitHub\SafetyCone\";
 
@@ -651,8 +651,8 @@ namespace R5T.S0038
         private async Task CreateAndCloneRepository()
         {
             /// Inputs.
-            var repositoryName = Instances.Example.RepositoryName;
-            var repositoryDescription = Instances.Example.RepositoryDescription;
+            var repositoryName = Instances.Examples.RepositoryName;
+            var repositoryDescription = Instances.Examples.RepositoryDescription;
             var isPrivate = true;
 
             var repositoriesDirectoryPath = @"C:\Code\DEV\Git\GitHub\SafetyCone\";
@@ -688,7 +688,7 @@ namespace R5T.S0038
         private async Task DeleteRepository()
         {
             /// Inputs.
-            var repositoryName = Instances.Example.RepositoryName;
+            var repositoryName = Instances.Examples.RepositoryName;
 
             /// Run.
             await this.RemoteRepositoryContextProvider_N002.For(
@@ -712,8 +712,8 @@ namespace R5T.S0038
         private async Task CreateRepository()
         {
             /// Inputs.
-            var repositoryName = Instances.Example.RepositoryName;
-            var repositoryDescription = Instances.Example.RepositoryDescription;
+            var repositoryName = Instances.Examples.RepositoryName;
+            var repositoryDescription = Instances.Examples.RepositoryDescription;
             var isPrivate = false;
 
             /// Run.
