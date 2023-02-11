@@ -54,7 +54,7 @@ namespace R5T.S0038
         public static IServiceAction ServiceAction { get; } = T0062.ServiceAction.Instance;
         public static ISolutionNameOperator SolutionNameOperator { get; } = T0112.SolutionNameOperator.Instance;
         public static ISpacingGenerator SpacingGenerator { get; } = B0007.SpacingGenerator.Instance;
-        public static IStrings Strings { get; } = Z0000.Strings.Instance;
+        public static Z0000.IStrings Strings { get; } = Z0000.Strings.Instance;
         public static ISyntaxGenerator SyntaxGenerator { get; } = S0038.SyntaxGenerator.Instance;
         public static ISyntaxGenerator_Base SyntaxGenerator_Base { get; } = B0006.SyntaxGenerator.Instance;
         public static ISyntaxGenerator_ParseSimple SyntaxGenerator_ParseSimple { get; } = F0005.SyntaxParser.Instance;
